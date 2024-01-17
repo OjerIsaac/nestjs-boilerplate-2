@@ -16,7 +16,8 @@
 - run `yarn run start:dev`
 
 #### Creating migration file
-- run `yarn run new:migration <name of table/migration>`
-- new migration file will be created in `src/migrations`
+- run `yarn run db:create <name of table/migration>`
+- new migration file will be created in the project root folder
+- move the migration file to the `src/migrations` folder
 - edit the file to satisfaction
-- run `yarn run migrate` to migrate the table into the db
+- run `yarn run db:migrate` to migrate the table into the db
