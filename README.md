@@ -13,6 +13,7 @@
 - run `yarn install`
 - run mv .env.example .env
 - update the .env with local variables
+- run `yarn run huskyprepare` to install git pre-hook
 - run `yarn run start:dev`
 
 #### Creating migration file
